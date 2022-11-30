@@ -160,9 +160,10 @@ a:hover .liquid{
   --color-icon: #535c68;  
   --social-icon1: #e4405f;
   --social-icon2: #3b5999;
-  --social-icon3: #6e5494; /*#211F1F;*/
+  --social-icon3: #6e5494;
   --social-icon4: #1da1f2;
-  --social-icon5: #0077b5;  
+  --social-icon5: #0077b5; 
+  --social-icon6: #211f1f;  
 }
 * {
   margin: 0;
@@ -235,11 +236,13 @@ a:hover .liquid{
 .icon-item:nth-child(3) a:hover:before { 
   background: var(--social-icon3); 
 }
-
 .icon-item:nth-child(4) a:hover:before { 
   background: var(--social-icon4); 
 }
 .icon-item:nth-child(5) a:hover:before { 
   background: var(--social-icon5); 
+}
+.icon-item:nth-child(6) a:hover:before { 
+  background: var(--social-icon6); 
 }
 /* End Of Social Hover */
