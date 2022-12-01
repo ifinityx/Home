@@ -9,8 +9,12 @@ section {
 .navbar{
   background-color:rgba(241, 122, 126, 0.8);
 }
+
+/* .nav-item a{
+  opacity: 0;
+} */
+
 .jumbotron {
-  background-color: #0061fd;
   padding-top: 6rem;
   background-image: url(img/header.jpg);
   background-attachment: fixed;
@@ -93,12 +97,8 @@ footer{
   justify-content: space-between;
 }
 
-/* Desktop Version (CSS INI AKAN BERJALAN HANYA DI MODE DESKTOP -992PX-) */
-/* @media (min-width: 992px) { 
-  .navbar-brand,.nav-link{
-      color: white!important;
-      text-shadow: 1px 1px 1px rgba(0, 0, 0,0.7);
-  } */
+
+  
 /* Start of Social Hover */
 :root {
   --bg: #f17a7e;     
@@ -193,3 +193,17 @@ footer{
   background: var(--social-icon6); 
 }
 /* End Of Social Hover */
+
+/* Desktop Version (CSS INI AKAN BERJALAN HANYA DI MODE DESKTOP -992PX-) */
+@media (min-width: 992px) { 
+  .nav-link:hover{
+    background-color: rgba(74, 97, 99, 0.8);
+    border-radius: 50px;
+  }
+}
+.nav-link{
+  text-shadow: 1px 1px 1px rgba(0, 0, 0,0.7);
+}
+.icon-item{
+  text-shadow: 1px 1px 1px rgba(0, 0, 0,0.7);
+}
